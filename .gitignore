@@ -11,7 +11,6 @@
 [Dd]ebugPublic/
 [Rr]elease/
 x64/
-build/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -180,3 +179,5 @@ ObjectFiller.Test/ObjectFiller.Test.v2.ncrunchproject
 .vs/config/applicationhost.config
 Output-Build.txt
 .vs/
+build/tools/*
+!build/tools/packages.config
