@@ -1,8 +1,8 @@
-﻿namespace Tynamix.ObjectFiller
-{
-	using System;
+﻿using System;
 
-	/// <summary>
+namespace Tynamix.ObjectFiller.Plugins.Long
+{
+    /// <summary>
 	/// The 64-integer range plugin
 	/// </summary>
 	public class LongRange : IRandomizerPlugin<long>, IRandomizerPlugin<long?>
@@ -62,7 +62,7 @@
 
 
 		/// <summary>
-		/// Gets random data for type <see cref="Nullable{Int64}"/>
+		/// Gets random data for type <see cref="Nullable{T}"/>
 		/// </summary>
 		/// <returns>Random data for type <see cref="Nullable{Int64}"/></returns>
 		long? IRandomizerPlugin<long?>.GetValue()
